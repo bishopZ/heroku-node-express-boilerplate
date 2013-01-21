@@ -1,0 +1,18 @@
+{
+  "author": "Douglas Crockford <douglas@crockford.com> (http://crockford.com)",
+  "contributors"  : ["AJ ONeal <coolaj86@gmail.com> (http://coolaj86.info)"],
+  "name": "JSON",
+  "description": "Douglas Crockford's json2.js",
+  "keywords": ["ender"],
+  "version": "1.0.0",
+  "homepage": "http://json.org",
+  "repository": {
+    "url": "git://github.com/douglascrockford/JSON-js.git"
+  },
+  "main": "json2.js",
+  "engines": {
+    "node": ">= 0.2.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
