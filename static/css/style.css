@@ -208,18 +208,12 @@ ul.wrap0 li { margin: 0px; }
 }
 
 .content {
-	height: auto;
-	width: auto;
+	height: auto; width: auto;
 	padding: 0; margin: 0;
 }
 
-.odd {
-	background-color:#fff;
-}
-.even {
-	background-color:#eee;
-}
-
+.odd { background-color:#fff; }
+.even { background-color:#eee; }
 
 /* Typography */
 
@@ -228,7 +222,6 @@ body, select, input, textarea { color:#444; }
 
 div,ul,blockquote,label,p,td,th { font-size: 13px; line-height: 20px; font-family: "Helvetica Roman", Helvetica, sans-serif  } 
 p { line-height: 150%; padding:0 0 1em 0; }
-
 
 /* www.aestheticallyloyal.com/public/optimize-legibility/ */ 
 h1,h2,h3,h4,h5,h6 { font-weight: bold; text-rendering: optimizeLegibility; }
@@ -254,30 +247,29 @@ span.disabled a {
 a:link { -webkit-tap-highlight-color: #FF5E99; } 
 
 /*	Blockquotes  */
-	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
-	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
-	blockquote cite { display: block; font-size: 12px; color: #555; }
-	blockquote cite:before { content: "\2014 \0020"; }
-	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+blockquote cite { display: block; font-size: 12px; color: #555; }
+blockquote cite:before { content: "\2014 \0020"; }
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
 
 
 /* #Lists
 ================================================== */
-	ul, ol { margin-bottom: 20px; }
-	/*ul { list-style: none outside; }*/
-	ol { list-style: decimal; }
-	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
-	ul.square { list-style: square outside; }
-	ul.circle { list-style: circle outside; }
-	ul.disc { list-style: disc outside; }
-	ul ul, ul ol,
-	ol ol, ol ul { margin: 4px 0 5px 10px; font-size: 90%;  }
-	ul ul li, ul ol li,
-	ol ol li, ol ul li { margin-bottom: 6px; }
-	li { line-height: 18px; margin-bottom: 12px; }
-	ul.large li { line-height: 21px; }
-	li p { line-height: 21px; }
-	
+ul, ol { margin-bottom: 20px; }
+/*ul { list-style: none outside; }*/
+ol { list-style: decimal; }
+ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+ul.square { list-style: square outside; }
+ul.circle { list-style: circle outside; }
+ul.disc { list-style: disc outside; }
+ul ul, ul ol,
+ol ol, ol ul { margin: 4px 0 5px 10px; font-size: 90%;  }
+ul ul li, ul ol li,
+ol ol li, ol ul li { margin-bottom: 6px; }
+li { line-height: 18px; margin-bottom: 12px; }
+ul.large li { line-height: 21px; }
+li p { line-height: 21px; }
 
 small, .small { font-size:85%; }
 strong, th, .strong, .bold { font-weight: bold; }
@@ -285,17 +277,10 @@ strong, th, .strong, .bold { font-weight: bold; }
 
 sub, .sub { vertical-align: sub; font-size: smaller; }
 sup, .sup { vertical-align: super; font-size: smaller; }
+pre, .pre { padding: 15px; margin:0; }
 
-pre, .pre { 
-  padding: 15px; margin:0;
-}
-
-::selection {
-	color: #fff; text-shadow: none; background-color: #FF5E99;
-}
-::-moz-selection {
-	color: #fff; text-shadow: none; background: #FF5E99;
-}
+::selection { color: #fff; text-shadow: none; background-color: #FF5E99; }
+::-moz-selection { color: #fff; text-shadow: none; background: #FF5E99; }
 
 .nowrap { white-space:nowrap; }
 .indent { margin-left: 35px; }
@@ -307,18 +292,15 @@ ul.indent { margin-left: 35px; }
 .error {
 	color: #744;
 	font: normal 12px/20px Arial;
-	padding: 7px;
-	margin: 0;
+	padding: 7px; margin: 0;
 }
 
 .caption { font-size:10px; }
 
 .todo {
-	font-weight:bold;
-	color:#c00;
+	font-weight:bold; color:#c00;
 	border:1px dashed #c00;
-	margin:10px;
-	padding:5px;
+	margin:10px; padding:5px;
 	background-color:#ffcfce;
 }
 
