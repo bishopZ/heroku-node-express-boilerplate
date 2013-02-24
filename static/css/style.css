@@ -144,11 +144,11 @@ header, footer { width:100%; }
 .z9 {z-index:9;}
 .z99, .z999, .above { z-index:9999;}
 
-.alpha1 {opacity: 1; -moz-opacity: 1; filter:alpha(opacity=1);}
-.alpha2 {opacity: 0.75; -moz-opacity: 0.75; filter:alpha(opacity=0.75);}
-.alpha3 {opacity: 0.5; -moz-opacity: 0.5; filter:alpha(opacity=0.5);}
-.alpha4 {opacity: 0.33; -moz-opacity: 0.33; filter:alpha(opacity=0.33);}
-.transparent {opacity: 0; -moz-opacity: 0; filter:alpha(opacity=0);}
+.a0, .alpha0, .transparent {opacity: 0; -moz-opacity: 0; filter:alpha(opacity=0);}
+.a1, .alpha1 {opacity: 1; -moz-opacity: 1; filter:alpha(opacity=1);}
+.a2, .alpha2 {opacity: 0.75; -moz-opacity: 0.75; filter:alpha(opacity=0.75);}
+.a3, .alpha3 {opacity: 0.5; -moz-opacity: 0.5; filter:alpha(opacity=0.5);}
+.a4, .alpha4 {opacity: 0.33; -moz-opacity: 0.33; filter:alpha(opacity=0.33);}
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
 .hidden { display: none !important; visibility: hidden; }
@@ -236,7 +236,7 @@ body {
     box-shadow: 0 8px 6px -6px black;
 }
 
-.shadown3 {
+.shadow3 {
     background: #eee;
     box-shadow:
         0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
@@ -371,7 +371,7 @@ a.gradient:hover::after {
 a.disabled,
 a.disabled:hover,
 span.disabled,
-span.disabled a { color:#ccc; }
+span.disabled a { color:#ccc; cursor: pointer; }
 
 /*  j.mp/webkit-tap-highlight-color */
 a:link { -webkit-tap-highlight-color: #FF5E99; } 
@@ -396,7 +396,7 @@ body, label, button, select, input, textarea { color:#444; }
 div,ul,ol,blockquote,label,p,td,th { font-size: 13px; line-height: 20px; font-family: "Helvetica Roman", Helvetica, sans-serif  } 
 
 /* prevents long URLs from spilling out of divs */
-body, label, button, select, input, textarea, div,ul,ol,blockquote,label,p,td,th,h1,h2,h3,h4,h5,h6 {
+.comment,textarea,blockquote,label,p,td,th,h1,h2,h3,h4,h5,h6 {
     word-wrap: break-word;
 	-ms-word-break: break-all;
     word-break: break-all;
