@@ -20,7 +20,7 @@ app.configure(function(){
     require(global.DIR + '/app/static.js');
 
     app.get('/css/', function(req, res) {
-        var files = ['base', 'style', 'Lane/styles', 'layout', 'forms' ];
+        var files = ['style', 'Lane/styles', 'layout', 'forms' ];
         render.css(files, res);
     });
     app.get('/js/', function(req, res) {
