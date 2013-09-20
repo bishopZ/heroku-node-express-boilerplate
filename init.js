@@ -59,6 +59,15 @@ app.get('/', function(req, res, next) {
     });
 });
 
+app.get('/bootswatch', function(req, res){
+  res.render(global.DIR + '/views/bootswatch.ejs')
+})
+
+app.get('/typography', function(req, res){
+  res.render(global.DIR + '/views/typography.ejs')
+})
+
+
 /* Leader */
 app.listen(global.PORT, function() {
     console.log("Listening on " + global.PORT);
